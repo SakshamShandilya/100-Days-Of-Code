@@ -22,7 +22,9 @@ Daily Commits: Commit your code daily. Whether it's a Java program, a new DSA so
 Share Your Progress: Though we won't enforce daily updates, sharing your progress is encouraged. Connect with the community, share your learnings, and inspire others on your coding journey.
 
 
-## LinkedIn Post -
+## LinkedIn Post - https://www.linkedin.com/posts/shandilya-saksham_github-saksham140023100-days-of-code-activity-7131716565414121472-E4rm?utm_source=share&utm_medium=member_desktop
+
+
 
 ## Contributions
 
