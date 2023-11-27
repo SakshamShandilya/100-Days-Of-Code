@@ -4,7 +4,6 @@ class Solution {
         recurse(res, 0, 0, "", n);
         return res;
     }
-    
     public void recurse(List<String> res, int left, int right, String s, int n) {
         if (s.length() == n * 2) {
             res.add(s);
