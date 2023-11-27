@@ -10,7 +10,6 @@ public:
 
         return result;
     }
-
 private:
     void backtrack(const vector<int>& candidates, int target, int start,
                    vector<int>& currentCombination, vector<vector<int>>& result) {
