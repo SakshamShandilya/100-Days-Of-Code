@@ -7,7 +7,6 @@ class Solution {
         backtrack("", digits, phone_map, output);
         return output;
     }
-
     private void backtrack(String combination, String next_digits, String[] phone_map, List<String> output) {
         if (next_digits.isEmpty()) {
             output.add(combination);

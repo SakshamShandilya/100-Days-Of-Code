@@ -14,7 +14,6 @@ class Solution {
         }
         return false;
     }
-
     private boolean dfs(char[][] board, int i, int j, String word, int index) {
         
         if (index == word.length()) {
