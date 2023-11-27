@@ -12,7 +12,6 @@ class Solution {
 
         return result;
     }
-
     private void solveNQueensHelper(int row, char[][] board, List<List<String>> result) {
         if (row == board.length) {
             result.add(constructBoard(board));
