@@ -8,7 +8,6 @@ class Solution {
     private void generateSubsets(int[] nums, int index, List<Integer> current, List<List<Integer>> result) {
         result.add(new ArrayList<>(current));
         
-
         for (int i = index; i < nums.length; i++) {
             current.add(nums[i]);
             generateSubsets(nums, i + 1, current, result);
