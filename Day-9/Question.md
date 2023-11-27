@@ -1,4 +1,4 @@
-# Median of Two Sorted Arrays
+# Question Topic Median of Two Sorted Arrays
 
 ## Link - https://leetcode.com/problems/median-of-two-sorted-arrays/description/?envType=study-plan-v2&envId=top-100-liked
 
