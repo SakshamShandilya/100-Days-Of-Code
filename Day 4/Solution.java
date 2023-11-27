@@ -9,7 +9,6 @@ public:
 
         return result;
     }
-
 private:
     void generatePermutations(const std::vector<int>& nums, std::vector<bool>& used, std::vector<int>& currentPermutation, std::vector<std::vector<int>>& result) {
         if (currentPermutation.size() == nums.size()) {
