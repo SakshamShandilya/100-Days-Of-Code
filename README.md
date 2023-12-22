@@ -66,8 +66,7 @@ Feel free to contribute to this repository by:
 
 ## Connect with Me
 
-Let's connect and share our coding journey! Reach out to me on https://www.linkedin.com/in/shandilya-saksham/
-
-
+Let's connect and share our coding journey! Reach out to me on https://www.linkedin.com/in/shandilya-saksham-full-stack-developer
+              
 
 # Happy coding! 🖥️💻
