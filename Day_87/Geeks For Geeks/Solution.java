@@ -1,17 +1,15 @@
 class Solution {
-    public int majorityElement(int[] nums) {
-        HashMap<Integer, Integer> hash = new HashMap<>();
-        int res = 0;
-        int majority = 0;
-
-        for (int n : nums) {
-            hash.put(n, 1 + hash.getOrDefault(n, 0));
-            if (hash.get(n) > majority) {
-                res = n;
-                majority = hash.get(n);
+    static long sequence(int n) {
+        long MOD = 1000000007;
+        long x = 1, ans = 0;
+        for (int i = 1; i <= n; ++i) {
+            long temp = 1;
+            for (int j = 1; j <= i; ++j) {
+                temp = (temp * x) % MOD;
+                ++x;
             }
+            ans = (ans + temp) % MOD;
         }
-
-        return res;        
+        return ans;
     }
 }
