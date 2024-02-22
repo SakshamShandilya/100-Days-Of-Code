@@ -1,17 +1,22 @@
-# Question Topic - Rotate Array
+# Question Topic - Distinct occurrences
 
 
-## Link - https://leetcode.com/problems/rotate-array/description/?envType=study-plan-v2&envId=top-100-liked
+
+## Link - https://www.geeksforgeeks.org/problems/distinct-occurrences/1
 
 
 ## Description
 
-Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
+Given two strings s and t of length n and m respectively. Find the count of distinct occurrences of t in s as a sub-sequence modulo 109 + 7.
+
+## Your Task:
+
+You don't need to read input or print anything.Your task is to complete the function subsequenceCount() which takes two strings as argument s and t and returns the count of the sub-sequences modulo 109 + 7.
+
+### Expected Time Complexity: O(n*m).
+
+### Expected Auxiliary Space: O(n*m).
 
 ## Constraints:
 
-1 <= nums.length <= 105
-
--231 <= nums[i] <= 231 - 1
-
-0 <= k <= 105
+1 ≤ n,m ≤ 1000
